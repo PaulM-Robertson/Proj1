@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.module.css';
-
+import BookOfMonth from './containers/BookOfMonth/BookOfMonth';
 import Layout from './components/Layout/Layout';
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div>
         <Layout>
-          <p>Test</p>
+          <BookOfMonth />
         </Layout>
       </div>
     );
